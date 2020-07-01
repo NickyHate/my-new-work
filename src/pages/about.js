@@ -1,16 +1,12 @@
 import React from "react";
 
-export default function Home() {
+export default function About() {
   return (
     <>
-      <div className="content" id="home">
+      <div className="content" id="about">
         <div className="content__description">
           <p className="text-content">
-            My name is Nikita Tokarev.
-            <br />
-            I'm junior Frontend developer
-            <br />
-            from Saint-Petersburg.
+            About
           </p>
           <a href="#" className="btn-container">
             <button className="contact-btn">Contact me</button>

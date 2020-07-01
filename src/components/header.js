@@ -9,18 +9,18 @@ export default function Header() {
           <Link to="/" className="list-item">
             Home
           </Link>
-          <a href="#about" className="list-item">
+          <Link to="/about" className="list-item">
             About me
-          </a>
-          <a href="#skills" className="list-item">
+          </Link>
+          <Link to="/skills" className="list-item">
             Skills
-          </a>
-          <a href="#projects" className="list-item">
-            Projects
-          </a>
-          <a href="#contacts" className="list-item">
+          </Link>
+          <Link to="/projects" className="list-item">
+            Projects 
+          </Link>
+          <Link to="/contacts" className="list-item">
             Contacts
-          </a>
+          </Link>
         </div>
         <div className="menu-bar__tel">+7 (911) 72-72-72-8</div>
         <div className="menu-bar__lang">EN</div>
