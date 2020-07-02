@@ -3,7 +3,7 @@ import { Link, BrowserRouter } from "react-router-dom";
 
 export default function Header() {
   return (
-    <BrowserRouter>
+    <BrowserRouter forceRefresh={true}>
       <div className="menu-bar">
         <div className="menu-bar__list">
           <Link to="/" className="list-item">
@@ -16,7 +16,7 @@ export default function Header() {
             Skills
           </Link>
           <Link to="/projects" className="list-item">
-            Projects 
+            Projects
           </Link>
           <Link to="/contacts" className="list-item">
             Contacts

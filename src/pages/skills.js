@@ -5,30 +5,19 @@ export default function Skills() {
     <>
       <div className="content" id="skills">
         <div className="content__description">
-          <p className="text-content">Skills</p>
-          <a href="#" className="btn-container">
-            <button className="contact-btn">Contact me</button>
-          </a>
-        </div>
-        <div className="content__image">
-          <div className="cube">
-            <div className="side top">
-              <p className="side-text">html5</p>
+          <h2>My skills</h2>
+          <div className="skills-list">
+            <div className="skills-list__left-side">
+              <div className="skills-item">Adaptive and responsive layouts</div>
+              <div className="skills-item">Graphic editors: Figma, Photoshop</div>
+              <div className="skills-item">HTML and CSS</div>
+              <div className="skills-item">JavaScript and frameworks</div>
             </div>
-            <div className="side right">
-              <p className="side-text">css3</p>
-            </div>
-            <div className="side left">
-              <p className="side-text">js</p>
-            </div>
-            <div className="side bottom">
-              <p className="side-text">cms</p>
-            </div>
-            <div className="side front">
-              <p className="side-text">react</p>
-            </div>
-            <div className="side back">
-              <p className="side-text">webpack</p>
+            <div className="skills-list__right-side">
+              <div className="skills-item">Cross platformm development</div>
+              <div className="skills-item">Mobile development</div>
+              <div className="skills-item">Database and query languages</div>
+              <div className="skills-item">Version control systems</div>
             </div>
           </div>
         </div>

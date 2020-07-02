@@ -1,38 +1,21 @@
 import React from "react";
+import Button from "../components/button";
 
 export default function About() {
   return (
     <>
       <div className="content" id="about">
         <div className="content__description">
+          <h2>Nikita tokarev</h2>
           <p className="text-content">
-            About
+            {" "}
+            I am graduated Saint-Petrrsburg Mining University
+            <br /> for the IT-programming. Last year I became interested <br />
+            of web development.
+            <br/><br/>
+            I have completed front-end developer course in Skillox university.
           </p>
-          <a href="#" className="btn-container">
-            <button className="contact-btn">Contact me</button>
-          </a>
-        </div>
-        <div className="content__image">
-          <div className="cube">
-            <div className="side top">
-              <p className="side-text">html5</p>
-            </div>
-            <div className="side right">
-              <p className="side-text">css3</p>
-            </div>
-            <div className="side left">
-              <p className="side-text">js</p>
-            </div>
-            <div className="side bottom">
-              <p className="side-text">cms</p>
-            </div>
-            <div className="side front">
-              <p className="side-text">react</p>
-            </div>
-            <div className="side back">
-              <p className="side-text">webpack</p>
-            </div>
-          </div>
+          <Button name="see projects" />
         </div>
       </div>
     </>
