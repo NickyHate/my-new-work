@@ -21,10 +21,10 @@ function App() {
           <HashRouter>
             <Switch>
               <Route path="/#/" exact component={() => <Home />} />
-              <Route path="/about" exact component={() => <About />} />
-              <Route path="/skills" exact component={() => <Skills />} />
-              <Route path="/projects" exact component={() => <Projects />} />
-              <Route path="/contacts" exact component={() => <Contacts />} />
+              <Route path="/#/about" exact component={() => <About />} />
+              <Route path="/#/skills" exact component={() => <Skills />} />
+              <Route path="/#/projects" exact component={() => <Projects />} />
+              <Route path="/#/contacts" exact component={() => <Contacts />} />
             </Switch>
           </HashRouter>
           <Footer />

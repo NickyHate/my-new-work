@@ -6,19 +6,19 @@ export default function Header() {
     <BrowserRouter forceRefresh={true}>
       <div className="menu-bar">
         <div className="menu-bar__list">
-          <Link to="/" className="list-item">
+          <Link to="/#/" className="list-item">
             Home
           </Link>
-          <Link to="/about" className="list-item">
+          <Link to="/#/about" className="list-item">
             About me
           </Link>
-          <Link to="/skills" className="list-item">
+          <Link to="/#/skills" className="list-item">
             Skills
           </Link>
-          <Link to="/projects" className="list-item">
+          <Link to="/#/projects" className="list-item">
             Projects
           </Link>
-          <Link to="/contacts" className="list-item">
+          <Link to="/#/contacts" className="list-item">
             Contacts
           </Link>
         </div>
