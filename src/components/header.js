@@ -6,7 +6,7 @@ export default function Header() {
     <HashRouter forceRefresh={true}>
       <div className="menu-bar">
         <div className="menu-bar__list">
-          <Link to="/my-new-work/#/" className="list-item">
+          <Link to="/#/" className="list-item">
             Home
           </Link>
           <Link to="/#/about" className="list-item">
