@@ -20,7 +20,7 @@ function App() {
           <Header />
           <BrowserRouter>
             <Switch>
-              <Route path="/" exact component={() => <Home />} />
+              <Route path="/my-new-work" exact component={() => <Home />} />
               <Route path="/about" exact component={() => <About />} />
               <Route path="/skills" exact component={() => <Skills />} />
               <Route path="/projects" exact component={() => <Projects />} />
