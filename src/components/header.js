@@ -1,9 +1,9 @@
 import React from "react";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link, HashRouter } from "react-router-dom";
 
 export default function Header() {
   return (
-    <BrowserRouter forceRefresh={true}>
+    <HashRouter forceRefresh={true}>
       <div className="menu-bar">
         <div className="menu-bar__list">
           <Link to="/#/" className="list-item">
@@ -25,6 +25,6 @@ export default function Header() {
         <div className="menu-bar__tel">+7 (911) 72-72-72-8</div>
         <div className="menu-bar__lang">EN</div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
