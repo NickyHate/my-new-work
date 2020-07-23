@@ -623,7 +623,6 @@ h2 {
   color: #808080;
 }
 .content {
-  margin-top: 150px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -644,9 +643,7 @@ h2 {
   line-height: 30px;
   color: #fff;
 }
-#contacts {
-  margin-top: 100px;
-}
+
 #contacts button {
   padding: 16px 80px;
 }
@@ -765,8 +762,6 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 100px;
-  margin-bottom: 20px;
 }
 .page-container a {
   font-size: 24px;
