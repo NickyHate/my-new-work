@@ -10,12 +10,11 @@ export default function Contacts() {
           <h2>Contact me</h2>
           <form className="form-container">
             <Input value="Name" />
-            <Input value ="Phone"/>
-            <Input value="Message"/>
+            <Input value="Phone" />
+            <Input value="Message" />
           </form>
           <div className="upload-container">
-          <Button name="send" />
-
+            <Button name="send" />
           </div>
         </div>
       </div>
