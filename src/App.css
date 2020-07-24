@@ -589,7 +589,7 @@ h2 {
     transform: translateY(-2000px);
   }
 }
-.container {
+.main-container {
   padding: 35px 38px;
   width: 1440px;
   min-height: 100vh;
@@ -788,3 +788,5 @@ h2 {
 .social-container .social-container__item:last-child {
   margin-right: 0;
 }
+
+

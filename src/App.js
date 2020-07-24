@@ -16,7 +16,7 @@ function App() {
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
-        <div className="container">
+        <div className="main-container">
           <Header />
           <HashRouter>
             <Switch>
