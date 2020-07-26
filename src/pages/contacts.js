@@ -5,7 +5,7 @@ import Input from "../components/input";
 export default function Contacts() {
   return (
     <>
-      <div className="content" id="contacts">
+      <div  id="contacts">
         <div className="content__description">
           <h2>Contact me</h2>
           <form className="form-container">

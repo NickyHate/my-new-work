@@ -3,7 +3,7 @@ import React from "react";
 export default function Skills() {
   return (
     <>
-      <div className="content" id="skills">
+      <div  id="skills">
         <div className="content__description">
           <h2>My skills</h2>
           <div className="skills-list">

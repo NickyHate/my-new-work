@@ -5,7 +5,7 @@ import Button from "../components/button";
 export default function Home() {
   return (
     <>
-      <div className="content" id="home">
+      <div  id="home">
         <div className="content__description">
           <p className="text-content">
             My name is Nikita Tokarev.

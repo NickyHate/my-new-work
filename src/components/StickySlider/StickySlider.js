@@ -11,7 +11,7 @@ const StickySlider = () => {
   const [transition, updateTransition] = useState(0);
 
   const params = {
-    slidesPerView: 3,
+    slidesPerView: 4,
   };
 
   useEffect(() => {
