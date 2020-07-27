@@ -4,7 +4,7 @@ import Button from "../components/button";
 export default function About() {
   return (
     <>
-      <div id="about">
+      <div className="content" id="about">
         <div className="content__description">
           <h2>Nikita tokarev</h2>
           <p className="text-content">
